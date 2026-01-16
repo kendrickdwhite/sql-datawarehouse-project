@@ -1,5 +1,6 @@
 IF OBJECT_ID ('Bronze.crm_cst_info','U')
     DROP TABLE Bronze.crm_cst_info;
+GO
 CREATE TABLE Bronze.crm_cst_info (
     cst_id INT,
     cst_key NVARCHAR(50),
